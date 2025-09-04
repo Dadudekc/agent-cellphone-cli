@@ -1,0 +1,9 @@
+[project]
+name = "agent-cellphone-cli"
+version = "0.1.0"
+authors = [{name = "OpenAI"}]
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"

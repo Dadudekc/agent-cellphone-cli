@@ -1,0 +1,3 @@
+steps:
+  - run: agents/supervisor_refactor.py
+  - run: pytest

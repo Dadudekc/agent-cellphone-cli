@@ -1,0 +1,3 @@
+steps:
+  - run: agents/cli_executor.py
+  - run: git commit

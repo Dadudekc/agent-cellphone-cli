@@ -1,0 +1,4 @@
+rules:
+  - id: ssot
+    description: ensure alignment with single source of truth
+    action: fail
