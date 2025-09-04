@@ -18,6 +18,6 @@ These guidelines apply to the entire repository.
 ## Coding Policies
 - Keep implementations simple and self-explanatory.
 - Use clear naming and provide inline comments when helpful.
-- Include tests for new behavior and run `npm test` before committing.
+- Include tests for new behavior and run the project's test suite before committing.
 - Use descriptive commit messages referencing the changes.
 - Ensure artifacts that are the SSOT remain consistent with your changes.
