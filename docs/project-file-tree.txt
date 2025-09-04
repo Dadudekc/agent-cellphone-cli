@@ -1,0 +1,51 @@
+agent-cellphone-cli/
+├─ README.md
+├─ pyproject.toml
+├─ Makefile
+├─ .editorconfig
+├─ .gitignore
+├─ .pre-commit-config.yaml
+├─ .cursor/
+│  ├─ tasks.yaml
+│  └─ rules.md
+├─ gates/
+│  ├─ dedup.rules.yaml
+│  ├─ ssot.rules.yaml
+│  └─ monolith.rules.yaml
+├─ cursorctl/
+│  ├─ cursorctl.sh
+│  ├─ adapters/
+│  │  ├─ editor_rpc.py
+│  │  └─ vcs.py
+│  └─ guards/
+│     ├─ gate_runner.py
+│     └─ file_lock.py
+├─ agents/
+│  ├─ base_agent.py
+│  ├─ supervisor_refactor.py
+│  ├─ supervisor_qa.py
+│  ├─ supervisor_reviewer.py
+│  └─ cli_executor.py
+├─ bus/
+│  ├─ schema.py
+│  ├─ inbox/
+│  └─ outbox/
+├─ playbooks/
+│  ├─ refactor_then_test.yaml
+│  └─ pr_autocompose.yaml
+├─ runtime/
+│  ├─ logs/
+│  └─ artifacts/
+└─ core/
+   ├─ Cargo.toml
+   └─ src/
+      ├─ main.rs
+      ├─ exec.rs
+      ├─ edits.rs
+      ├─ locks.rs
+      ├─ telemetry.rs
+      └─ gates/
+         ├─ mod.rs
+         ├─ monolith.rs
+         ├─ dedup.rs
+         └─ ssot.rs
