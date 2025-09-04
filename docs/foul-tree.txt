@@ -1,0 +1,36 @@
+CLI-First Agent Cell Phone — FOUL TREE
+=====================================
+
+ROOT: SYSTEM FAILURE
+|
++-- A) INSTRUCTION FAILURES
+|   |
+|   +-- A1) Malformed instruction
+|   +-- A2) Supervisor conflicts
+|   +-- A3) Infinite retry loops
+|
++-- B) EXECUTOR FAILURES
+|   |
+|   +-- B1) Locking deadlock
+|   +-- B2) Patch/edit corruption
+|   +-- B3) Process timeout (tests, lint, build)
+|   +-- B4) Rust executor crash (panic, IO error)
+|
++-- C) COMPLIANCE FAILURES
+|   |
+|   +-- C1) SSOT violation
+|   +-- C2) Duplicate helpers
+|   +-- C3) Monolith violation (>300 LOC/file)
+|   +-- C4) Gate bypass (commit without check)
+|
++-- D) BUS / MESSAGING FAILURES
+|   |
+|   +-- D1) Misrouted message
+|   +-- D2) Inbox/outbox delivery failure
+|   +-- D3) Log corruption / missing snapshots
+|
++-- E) HUMAN FAILURES
+    |
+    +-- E1) Role misassignment (supervisor edits directly)
+    +-- E2) Weak or ambiguous prompts
+    +-- E3) Governance drift (disabled gates, ignored reports)
