@@ -1,0 +1,4 @@
+rules:
+  - id: monolith
+    description: prohibit monolithic changes
+    action: warn

@@ -1,0 +1,5 @@
+tasks:
+  - id: generate_agents
+    description: Scaffold agent modules
+  - id: build_core
+    description: Compile core Rust crate

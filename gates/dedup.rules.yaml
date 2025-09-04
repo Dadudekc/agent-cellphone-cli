@@ -1,0 +1,4 @@
+rules:
+  - id: dedup
+    description: avoid duplicate work
+    action: fail
