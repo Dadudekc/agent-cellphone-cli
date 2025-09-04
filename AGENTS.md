@@ -1,4 +1,4 @@
-# AGENTS Instructions
+# Repository Guidelines
 
 ## Scope
 These guidelines apply to the entire repository.
